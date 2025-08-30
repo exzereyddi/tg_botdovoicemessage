@@ -1,5 +1,7 @@
 первым делам winget install ffmpeg ( главное что нада )
-еще этот $ pip install pyTelegramBotAPI
+
+еще этот pip install pyTelegramBotAPI
+
 что он делает?
 
 Бот принимает аудио или видео и отправляет их обратно голосовым сообщением
