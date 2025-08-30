@@ -11,6 +11,7 @@ bot = telebot.TeleBot(BOT_TOKEN)
 
 # тут укажи путь до ffmpeg.exe
 # если ffmpeg в PATH — оставь просто "ffmpeg"
+# FFMPEG_PATH = "ffmpeg"
 FFMPEG_PATH = r"C:\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.0-full_build\bin\ffmpeg.exe"
 # это пример моего патча. ( не фулл )
 def download_to_temp(file_id: str, suggested_name: str = "") -> str:
@@ -91,3 +92,4 @@ def handle_document(msg):
 # === СТАРТ ===
 print("Бот запущен (использует ffmpeg)")
 bot.infinity_polling()
+
